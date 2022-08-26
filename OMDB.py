@@ -22,7 +22,11 @@ def get_movie_info(query):
 📝 𝖶𝗋𝗂𝗍𝖾𝗋𝗌 : <b>{resp['Writer']}</b>
 🔆 𝖲𝗍𝖺𝗋𝗌 : <b>{resp['Actors']}</b>
 
-🗒 StoryLine : <code>{resp['Plot']}</code>"""
+🗒 StoryLine : <code>{resp['Plot']}</code>
+
+🔹<b>Request</b> - @Anything_On_Demand 
+♨️ <b>Updates</b> - @Everyth1ng_On_Demand
+🔹<b>Main Channel</b>: @Mov1es_On_Demand"""
 
     except Exception as error:
         print(error)
