@@ -11,8 +11,7 @@ def get_movie_info(query):
        resp = requests.get(url, headers=user).json()
        poster=resp['Poster']
        id=resp['imdbID']
-       text=f"""📀 <b>𝖳𝗂𝗍𝗅𝖾: <u>{resp['Title']}</u></b>
-                            
+       text=f"""📀 <b>𝖳𝗂𝗍𝗅𝖾: <u>{resp['Title']}</u></b>\n
 ⭐ <b>𝖱𝖺𝗍𝗂𝗇𝗀</b>: {resp['imdbRating']}/10
 📆 <b>𝖱𝖾𝗅𝖾𝖺𝗌𝖾</b>: {resp['Released']}
 🎭 <b>𝖦𝖾𝗇𝗋𝖾</b>: {resp['Genre']}
